@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.container {
+    width: 100%;
+    max-width: 800px;
+    padding: 1em;
+    margin: 0 auto;
+    border: 1px solid silver;
+}
+
+header {
+    padding: 2em 0;
+    text-align: center;
+}
+header h1 {
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+section {
+    padding: 2em 0;
+}
+
+.beers {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1em;
+}
+.beers li {
+    text-align: center;
+    padding: 10px;
+    border: 1px solid silver;
+}
+.beers img {
+    height: 120px;
+}
+.beers li p {
+    margin-top: 20px;
+    font-weight: 600;
+}
